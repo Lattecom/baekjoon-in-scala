@@ -1,4 +1,6 @@
 object Main {
+  import scala.io.StdIn._
+
   def main(args: Array[String]): Unit = {
     val n = Integer.parseInt(readLine())
     println(fib(n))
